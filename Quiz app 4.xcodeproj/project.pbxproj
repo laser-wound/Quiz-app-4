@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		516FB4802A85A3EB008AFB4E /* CircularProgressView.swift..swift in Sources */ = {isa = PBXBuildFile; fileRef = 516FB47F2A85A3EB008AFB4E /* CircularProgressView.swift..swift */; };
 		51EF11AB2A6DA3EA00F7CE77 /* Quiz_app_4App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51EF11AA2A6DA3EA00F7CE77 /* Quiz_app_4App.swift */; };
 		51EF11AD2A6DA3EA00F7CE77 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51EF11AC2A6DA3EA00F7CE77 /* ContentView.swift */; };
 		51EF11AF2A6DA3EC00F7CE77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51EF11AE2A6DA3EC00F7CE77 /* Assets.xcassets */; };
@@ -14,6 +15,9 @@
 		51EF11BD2A6DA3EC00F7CE77 /* Quiz_app_4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51EF11BC2A6DA3EC00F7CE77 /* Quiz_app_4Tests.swift */; };
 		51EF11C72A6DA3EC00F7CE77 /* Quiz_app_4UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51EF11C62A6DA3EC00F7CE77 /* Quiz_app_4UITests.swift */; };
 		51EF11C92A6DA3EC00F7CE77 /* Quiz_app_4UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51EF11C82A6DA3EC00F7CE77 /* Quiz_app_4UITestsLaunchTests.swift */; };
+		51EF11D62A6DA46F00F7CE77 /* Quiz model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51EF11D52A6DA46F00F7CE77 /* Quiz model.swift */; };
+		51EF11D82A6DA49C00F7CE77 /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51EF11D72A6DA49C00F7CE77 /* QuizView.swift */; };
+		51EF11DA2A6DA4BF00F7CE77 /* FinalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51EF11D92A6DA4BF00F7CE77 /* FinalView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		516FB47F2A85A3EB008AFB4E /* CircularProgressView.swift..swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressView.swift..swift; sourceTree = "<group>"; };
 		51EF11A72A6DA3EA00F7CE77 /* Quiz app 4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quiz app 4.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		51EF11AA2A6DA3EA00F7CE77 /* Quiz_app_4App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz_app_4App.swift; sourceTree = "<group>"; };
 		51EF11AC2A6DA3EA00F7CE77 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +50,9 @@
 		51EF11C22A6DA3EC00F7CE77 /* Quiz app 4UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Quiz app 4UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		51EF11C62A6DA3EC00F7CE77 /* Quiz_app_4UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz_app_4UITests.swift; sourceTree = "<group>"; };
 		51EF11C82A6DA3EC00F7CE77 /* Quiz_app_4UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz_app_4UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		51EF11D52A6DA46F00F7CE77 /* Quiz model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Quiz model.swift"; sourceTree = "<group>"; };
+		51EF11D72A6DA49C00F7CE77 /* QuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
+		51EF11D92A6DA4BF00F7CE77 /* FinalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +108,10 @@
 				51EF11AE2A6DA3EC00F7CE77 /* Assets.xcassets */,
 				51EF11B02A6DA3EC00F7CE77 /* Quiz_app_4.entitlements */,
 				51EF11B12A6DA3EC00F7CE77 /* Preview Content */,
+				51EF11D52A6DA46F00F7CE77 /* Quiz model.swift */,
+				51EF11D72A6DA49C00F7CE77 /* QuizView.swift */,
+				516FB47F2A85A3EB008AFB4E /* CircularProgressView.swift..swift */,
+				51EF11D92A6DA4BF00F7CE77 /* FinalView.swift */,
 			);
 			path = "Quiz app 4";
 			sourceTree = "<group>";
@@ -260,6 +272,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				51EF11AD2A6DA3EA00F7CE77 /* ContentView.swift in Sources */,
+				51EF11DA2A6DA4BF00F7CE77 /* FinalView.swift in Sources */,
+				51EF11D82A6DA49C00F7CE77 /* QuizView.swift in Sources */,
+				51EF11D62A6DA46F00F7CE77 /* Quiz model.swift in Sources */,
+				516FB4802A85A3EB008AFB4E /* CircularProgressView.swift..swift in Sources */,
 				51EF11AB2A6DA3EA00F7CE77 /* Quiz_app_4App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
